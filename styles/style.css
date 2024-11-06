@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template: auto 1fr auto / auto 1fr auto
+  }
+  
+  header {
+    background: rgba(255, 255, 255, 0.273);
+    padding: 2rem;
+    grid-column: 1 / 4;
+  }
+  
+  .left-sidebar {
+    background: rgb(173, 227, 230);
+    grid-column: 1 / 2;
+  }
+  
+  main {
+    background: hsl(0, 0%, 89%);
+    grid-column: 2 / 3;
+  }
+  
+  .right-sidebar {
+    background: rgb(0, 213, 255);
+    grid-column: 3 / 4;
+  }
+  
+  footer {
+    background: rgb(179, 221, 245);
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+  }
+  
+  body {
+    font-family: system-ui, sans-serif;
+  }
+  
+  .left-sidebar,
+  .right-sidebar {
+    padding: 1rem;
+  }
