@@ -3,7 +3,6 @@ body {
     height: 100vh;
     grid-template: auto 1fr auto / auto 1fr auto;
     font-family: 'Comfortaa', sans-serif;
-    
 }
 
 /* Header styling */
