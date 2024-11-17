@@ -8,7 +8,9 @@ button.addEventListener('click', () => {
 
     if (myItem === '') {
         alert('El campo no puede estar vacío');
+        input.focus();
         return;
+
     }
 
     const listItem = document.createElement('li');
