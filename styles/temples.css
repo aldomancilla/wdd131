@@ -13,23 +13,42 @@ header, footer {
     color: #012448;
 }
 
+.hover:hover {box-shadow: 0 0 10px rgb(0, 58, 134)}
+
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #012448;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr; 
     grid-gap: 1rem;
 }
 
-section {
-    padding: 1rem;
-    background-color: #fff;
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 main img {
-    width: 100%; 
-    height: auto; 
-    display: block;
+    width: 100%;
+    margin: 1rem auto;
+    height: auto;
+    display: flex;
     border: 1px solid #ccc;
-    border-radius: 5px; 
+    border-radius: 5px;
+}
+
+main figcaption {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #012448;
 }
 
 main figcaption {
