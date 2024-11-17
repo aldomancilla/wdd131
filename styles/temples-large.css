@@ -23,29 +23,6 @@ main {
     margin: 1rem auto;
 }
 
-main section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-main img {
-    width: 100%;
-    margin: 1rem auto;
-    height: auto;
-    display: flex;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-main figcaption {
-    margin-top: 0.5rem;
-    font-size: 1rem;
-    color: #012448;
-}
-
-
 @media screen and (min-width: 780px) {
     main {
         grid-template-columns: 1fr;
