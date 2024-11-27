@@ -5,64 +5,67 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Guatemala</title>
-    <meta name="description"
-    content="Dynamic Web Fundamentals - Aldo Ignacio Mancilla Huertas - Country of Guatemala">
+    <meta name="description" content="Dynamic Web Fundamentals - Aldo Ignacio Mancilla Huertas - Country of Guatemala">
     <meta name="author" content="Aldo Mancilla">
 
     <link href="styles/place.css" rel="stylesheet" />
     <script src="scripts/place.js" defer></script>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <Header>
         <h1>Guatemala</h1>
     </Header>
-
-    <div class="hero">
-        <picture>
-            <source srcset="images/quetzal_desktop.webp" media="(min-width: 768px)">
-            <img src="images/quetzala_movil.webp" alt="Guatemalan Quetzal" width="400" height="800">
-        </picture>
-    </div>
-    <div class="data">
-        <h2>Data</h2>
-        <div class="weather_grid">
-            <div class="div1">Area:</div>
-            <div class="div2">Population:</div>
-            <div class="div3">Capital:</div>
-            <div class="div4">Languages:</div>
-            <div class="div5">Currency:</div>
-            <div class="div6">Time Zone:</div>
-            <div class="div7">Calling Code:</div>
-            <div class="div8">Internet TLD</div>
-
-            <div class="div9">108,889 km²</div>
-            <div class="div10">17 million</div>
-            <div class="div11">Guatemala City</div>
-            <div class="div12">Spanish, Mayan languages</div>
-            <div class="div13">Quetzal (GTQ)</div>
-            <div class="div14">GMT -6</div>
-            <div class="div15">+502</div>
-            <div class="div16">.gt</div>
+    
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/quetzal_desktop.webp" media="(min-width: 768px)">
+                <img src="images/quetzala_movil.webp" alt="Guatemalan Quetzal" width="400" height="800">
+            </picture>
         </div>
-    </div>
-    <div class="weather">
-        <h2>Weather</h2>
-        <img src="images/weather_icon.svg" alt="weather" width="50">
-        <div class="data_grid">
-            <div class="div1a">Temperature:</div>
-            <div class="div2a">Conditions:</div>
-            <div class="div3a">Wind:</div>
-            <div class="div4a">Wind Chill:</div>
+        <div class="data">
+            <h2>Data</h2>
+            <div class="weather_grid">
+                <div class="div1">Area:</div>
+                <div class="div2">Population:</div>
+                <div class="div3">Capital:</div>
+                <div class="div4">Languages:</div>
+                <div class="div5">Currency:</div>
+                <div class="div6">Time Zone:</div>
+                <div class="div7">Calling Code:</div>
+                <div class="div8">Internet TLD</div>
 
-            <div class="div9a">17°C</div>
-            <div class="div10a">Partly Cloudy</div>
-            <div class="div11a">13 km/h</div>
-            <div class="div12a">15°C</div>
-
+                <div class="div9">108,889 km²</div>
+                <div class="div10">17 million</div>
+                <div class="div11">Guatemala City</div>
+                <div class="div12">Spanish, Mayan languages</div>
+                <div class="div13">Quetzal (GTQ)</div>
+                <div class="div14">GMT -6</div>
+                <div class="div15">+502</div>
+                <div class="div16">.gt</div>
+            </div>
         </div>
-    </div>
+        <div class="weather">
+            <h2>Weather</h2>
+            <img src="images/weather_icon.svg" alt="weather" width="50">
+            <div class="data_grid">
+                <div class="div1a">Temperature:</div>
+                <div class="div2a">Conditions:</div>
+                <div class="div3a">Wind:</div>
+                <div class="div4a">Wind Chill:</div>
+
+                <div class="div9a">17°C</div>
+                <div class="div10a">Partly Cloudy</div>
+                <div class="div11a">13 km/h</div>
+                <div class="div12a">15°C</div>
+
+            </div>
+        </div>
+    </main>
     <footer>
         <p>© <span id="year"></span> Aldo I. Mancilla, Guatemala City</p>
         <p id="lastModified"></p>
