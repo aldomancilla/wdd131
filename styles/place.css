@@ -138,6 +138,13 @@ h2 {
         border-bottom: 1rem var(--primary-color);
     }
 
+    .hero::after {
+        display: block;
+        content:"⊲-----------------⊳";
+        color: var(--bg-color);
+        text-align: center;
+    }
+
     .weather {
         display: grid;
         place-items: center;
