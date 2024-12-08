@@ -78,7 +78,7 @@ const temples = [
         dedicated: "1984, December, 16",
         area: 11610,
         imageUrl:
-            "https://churchofjesuschristtemples.org/assets/img/temples/guatemala-city-guatemala-temple/guatemala-city-guatemala-temple-6407.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/guatemala-city-guatemala-temple/guatemala-city-guatemala-temple-6407-thumb.jpg"
     },
     {
         templeName: "Salt Lake City, Utah",
@@ -86,7 +86,7 @@ const temples = [
         dedicated: "1893, April, 6",
         area: 382207,
         imageUrl:
-            "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-4937.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-4937-thumb.jpg"
     },
     {
         templeName: "Quetzaltenango, Guatemala",
@@ -94,7 +94,7 @@ const temples = [
         dedicated: "2011, December, 11",
         area: 21085,
         imageUrl:
-            "https://churchofjesuschristtemples.org/assets/img/temples/quetzaltenango-guatemala-temple/quetzaltenango-guatemala-temple-3959.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/quetzaltenango-guatemala-temple/quetzaltenango-guatemala-temple-3957-thumb.jpg"
     },
 ]
 
