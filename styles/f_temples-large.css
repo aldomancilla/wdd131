@@ -14,6 +14,11 @@ footer {
     color: #ffffff;
 }
 
+p {
+    text-align: center;
+    
+}
+
 .hover:hover {
     box-shadow: 0 0 10px rgb(0, 58, 134)
 }
