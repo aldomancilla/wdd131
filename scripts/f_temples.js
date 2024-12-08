@@ -17,7 +17,7 @@ document.getElementById("lastModified").textContent = "Last modified: " + docume
 
 const temples = [
     {
-        templeName: "Aba Nigeria Temple",
+        templeName: "Aba Nigeria Temple ",
         location: "Aba, Nigeria",
         dedicated: "2005, August, 7",
         area: 11500,
@@ -25,7 +25,7 @@ const temples = [
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
     },
     {
-        templeName: "Manti Utah Temple",
+        templeName: "Manti Utah Temple ",
         location: "Manti, Utah, United States",
         dedicated: "1888, May, 21",
         area: 74792,
@@ -33,7 +33,7 @@ const temples = [
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
     },
     {
-        templeName: "Payson Utah Temple",
+        templeName: "Payson Utah Temple ",
         location: "Payson, Utah, United States",
         dedicated: "2015, June, 7",
         area: 96630,
@@ -41,7 +41,7 @@ const temples = [
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
     },
     {
-        templeName: "Yigo Guam Temple",
+        templeName: "Yigo Guam Temple ",
         location: "Yigo, Guam",
         dedicated: "2020, May, 2",
         area: 6861,
@@ -49,7 +49,7 @@ const temples = [
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
     },
     {
-        templeName: "Washington D.C. Temple",
+        templeName: "Washington D.C. Temple ",
         location: "Kensington, Maryland, United States",
         dedicated: "1974, November, 19",
         area: 156558,
@@ -57,7 +57,7 @@ const temples = [
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
     },
     {
-        templeName: "Lima Perú Temple",
+        templeName: "Lima Perú Temple ",
         location: "Lima, Perú",
         dedicated: "1986, January, 10",
         area: 9600,
@@ -65,7 +65,7 @@ const temples = [
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
     },
     {
-        templeName: "Mexico City Mexico",
+        templeName: "Mexico City Mexico ",
         location: "Mexico City, Mexico",
         dedicated: "1983, December, 2",
         area: 116642,
@@ -73,7 +73,7 @@ const temples = [
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
     {
-        templeName: "Guatemala City Guatemala",
+        templeName: "Guatemala City Guatemala ",
         location: "Guatemala City, Guatemala",
         dedicated: "1984, December, 16",
         area: 11610,
@@ -81,7 +81,7 @@ const temples = [
             "https://churchofjesuschristtemples.org/assets/img/temples/guatemala-city-guatemala-temple/guatemala-city-guatemala-temple-6407-thumb.jpg"
     },
     {
-        templeName: "Salt Lake City, Utah",
+        templeName: "Salt Lake City, Utah ",
         location: "Salt Lake City, Utah, United States",
         dedicated: "1893, April, 6",
         area: 382207,
@@ -89,7 +89,7 @@ const temples = [
             "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-4937-thumb.jpg"
     },
     {
-        templeName: "Quetzaltenango, Guatemala",
+        templeName: "Quetzaltenango, Guatemala ",
         location: "Quetzaltenango, Guatemala",
         dedicated: "2011, December, 11",
         area: 21085,
