@@ -52,8 +52,9 @@ main .res-grid h3 {
     color: rgb(0, 58, 134);
 }
 
-main .res-grid p {
-    font-size: 0.9rem;
+main .res-grid section p {
+    display: block;
+    font-size: 1rem;
     color: #333;
     margin: .3rem 0;
 }

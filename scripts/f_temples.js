@@ -101,15 +101,15 @@ const temples = [
 function createTempleCard(filteredTemples) {
     resGrid.innerHTML = ""; // Clean the content
     filteredTemples.forEach(temple => {
-        let card = document.createElement("section");
-        let name = document.createElement("h3");
-        let location = document.createElement("p");
-        let dedication = document.createElement("p");
-        let area = document.createElement("p");
-        let img = document.createElement("img");
+        const card = document.createElement("section");
+        const name = document.createElement("h3");
+        const location = document.createElement("p");
+        const dedication = document.createElement("p");
+        const area = document.createElement("p");
+        const img = document.createElement("img");
 
         name.textContent = temple.templeName;
-        location.innerHTML = `<span class="label"> -Location:</span> ${temple.location}`;
+        location.innerHTML = `<span class="label">Location:</span> ${temple.location}`;
         dedication.innerHTML = `<span class="label">Dedicated:</span> ${temple.dedicated}`;
         area.innerHTML = `<span class="label">Size:</span> ${temple.area} sq ft`;
         img.setAttribute("src", temple.imageUrl);
@@ -122,9 +122,10 @@ function createTempleCard(filteredTemples) {
         card.appendChild(dedication);
         card.appendChild(area);
         card.appendChild(img);
+
         resGrid.appendChild(card);
     });
-    
+    styleSpansInCards();
 }
 
 // Filter
