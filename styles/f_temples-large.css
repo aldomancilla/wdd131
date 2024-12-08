@@ -16,7 +16,7 @@ footer {
 
 p {
     text-align: center;
-    
+
 }
 
 .hover:hover {
@@ -55,7 +55,7 @@ main .res-grid h3 {
 main .res-grid p {
     font-size: 0.9rem;
     color: #333;
-    margin: 0.3rem 0;
+    margin: .3rem 0;
 }
 
 main img {

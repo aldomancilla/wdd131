@@ -109,7 +109,7 @@ function createTempleCard(filteredTemples) {
         let img = document.createElement("img");
 
         name.textContent = temple.templeName;
-        location.innerHTML = `<span class="label">Location:</span> ${temple.location}</br>`;
+        location.innerHTML = `<span class="label"> -Location:</span> ${temple.location}`;
         dedication.innerHTML = `<span class="label">Dedicated:</span> ${temple.dedicated}`;
         area.innerHTML = `<span class="label">Size:</span> ${temple.area} sq ft`;
         img.setAttribute("src", temple.imageUrl);
@@ -118,17 +118,13 @@ function createTempleCard(filteredTemples) {
 
         // append cards
         card.appendChild(name);
-        card.appendChild(document.createTextNode("\n"));
         card.appendChild(location);
-        card.appendChild(document.createTextNode("\n"));
         card.appendChild(dedication);
-        card.appendChild(document.createTextNode("\n"));
         card.appendChild(area);
-        card.appendChild(document.createTextNode("\n"));
         card.appendChild(img);
-        card.appendChild(document.createTextNode("\n"));
         resGrid.appendChild(card);
     });
+    
 }
 
 // Filter
