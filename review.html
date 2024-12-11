@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Review</title>
+    <meta name="description" content="Review confirmation page">
+    <meta name="author" content="Aldo Mancilla">
+    <link href="styles/form.css" rel="stylesheet" />
+</head>
+<body>
+    <main>
+        <div style="text-align: center; margin-top: 50px;">
+            <h1>Thank you for your review!</h1>
+            <p>Your review has been submitted successfully.</p>
+    
+            <p>Number of reviews completed: <span id="reviewCount">0</span></p>
+    
+            <script>
+                // Check if 'reviewCount' exists in localStorage
+                let reviewCount = localStorage.getItem('reviewCount');
+                if (!reviewCount) {
+                    reviewCount = 0;
+                }
+                reviewCount++;
+    
+                // Save the updated review count to localStorage
+                localStorage.setItem('reviewCount', reviewCount);
+    
+                // Display the review count on the page
+                document.getElementById('reviewCount').textContent = reviewCount;
+            </script>
+        </div>
+    </main>
+</body>
+</html>

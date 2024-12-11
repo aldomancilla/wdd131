@@ -1,0 +1,83 @@
+
+body {
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+main {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input[type = "text"],
+input[type = "date"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+ .rating {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+} 
+
+.rating input {
+    width: auto;
+}
+
+input[type = "submit"] {
+    background-color: #003a86;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+input[type = "submit"]:hover {
+    background-color: #0964da;
+}
+
+footer {
+    background-color: #003a86;
+    color: #fff;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #0000001a;
+    width: 90%;
+    max-width: 600px;
+}
