@@ -1,0 +1,38 @@
+body {
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    --primary-color: #183529;
+    --secundary-color: #d2342b;
+    --text-color: #000000;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 500px; 
+    margin: 1rem auto;
+}
+
+h1, h2 {
+    color: var(--primary-color)
+}
+
+p {
+    color: var(--text-color);
+    text-align: justify;
+}
+
+.primary {
+    color: var(--primary-color);
+}
+
+.secundary {
+    color: var(--secundary-color);
+}
+
+footer {
+    width: 500px;
+    display: grid;
+    justify-content: center;
+    margin: 1rem auto;
+    text-align: center;
+    color: var(--primary-color)   
+}
