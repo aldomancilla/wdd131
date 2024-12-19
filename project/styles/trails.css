@@ -1,0 +1,285 @@
+:root {
+    font-family: "Roboto", serif;
+    --primary-color: #183529;
+    --secundary-color: #d2342b;
+    --white-color: #ffffff;
+    --text-color: #000000;
+    --soft-color: #f4f6f5;
+    --softd-color: #e8e8e8;
+    --grey-color: #4b4b4b;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    --radius: 100px;
+
+}
+
+.banner img {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+}
+
+header {
+    max-width: 100%;
+    text-align: center;
+    font-weight: 400;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem auto;
+    text-justify: auto;
+    padding: 15px 0;
+    margin-top: 10px;
+}
+
+p {
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
+    margin: 1rem;
+}
+  
+h1{
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+h2, h3 {
+    font-weight: 400;
+}
+
+
+.newsletter {
+    background-color: var(--soft-color);
+    display:block;
+    color: var(--text-color);
+    justify-content: center;
+    text-align: center;
+    padding: 80px;
+    margin: 1rem auto;
+    border-radius: 20px;
+    width: 40%;
+}
+
+input[type = "submit"] {
+    background-color: var(--secundary-color);
+    color: var(--white-color);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+input[type = "submit"]:hover {
+    background-color: var(--text-color);
+}
+
+input[type = "email"]{
+    width: 50%;
+    padding: 8px;
+    font-size:18px;
+    border: 1px solid var(--softd-color);
+    border-radius: 4px;
+    margin: 0 0 30px 0;
+}
+
+.social{
+    display: block; 
+    justify-content: center;
+    text-align: center;
+    padding: 3% 0 2% 0;
+    margin: 1rem auto;
+}
+
+.social-buttons a { 
+    padding: 2px; 
+}  
+
+.social-buttons img{ 
+    font-size: 8px; 
+}
+
+.navigation li {
+	display: block; 
+	flex: 1 1 100%;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 400;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+    border-radius: 20px 20px 0px 0px; 
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.navigation a:hover,
+.navigation a:active {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-radius: 20px 20px 0px 0px;    
+}
+
+.show li {
+    display: block;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container p {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.trail-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    border: 1px solid --grey-color;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trail-card img {
+    max-width: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 400px;
+}
+
+.trail-info {
+    padding: 20px;
+    flex: 1;
+}
+
+.trail-info h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.trail-info ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.trail-info ul li {
+    margin-bottom: 10px;
+}
+
+.trail-info ul li strong {
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 500px){
+
+    #menu {
+        display: block;
+        font-size: 2rem;
+        text-align: center;
+        text-decoration: none;
+        padding: .5rem .75rem;
+        background-color:var(--primary-color);
+        color: var(--white-color);
+    }
+    
+    #menu::before {
+        content: "≡";
+    }
+    
+    nav {
+        color: var(--primary-color);
+    }
+    
+    .navigation {
+        display: block;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+        list-style: none;
+        margin: 0 auto;
+    }
+    
+    .navigation li {
+        display: none;
+    }
+    
+    .show li {
+        display: grid;
+    }
+    
+    #menu.show::before {
+        content: "X";
+    }
+    
+    
+    .newsletter {
+        background-color: var(--soft-color);
+        display: block;
+        color: var(--text-color);
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        margin: 1rem auto;
+        border-radius: 20px;
+        width: 80%;
+    } 
+    
+    input[type = "submit"] {
+        background-color: var(--secundary-color);
+        color: var(--white-color);
+        border: none;
+        padding: 10px 10px;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 4px;
+    }
+    
+    input[type = "submit"]:hover {
+        background-color: var(--text-color);
+        margin: 0 0 20px 0;
+    }
+    
+    input[type = "email"]{
+        width: 90%;
+        padding: 8px;
+        font-size: 18px;
+        border: 1px solid var(--softd-color);
+        border-radius: 4px;
+        margin: 0 0 20px 0;
+    }
+
+    footer {
+        display: grid;
+        text-align: center;
+        justify-items: center;  
+    }
+
+}
+
+
+
+

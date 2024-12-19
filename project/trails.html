@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Trails</title>
+    <meta name="description" content="A Mountain Biking Adventure site trails section">
+    <meta name="author" content="Aldo Mancilla">
+
+    <link href="styles/trails.css" rel="stylesheet" />
+    <script src="scripts/trails.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Mountain Biking Adventure</h1>
+        </div>
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="trails.html">Trails</a></li>
+                <li><a href="tips.html">Tips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <picture>
+                <source srcset="/project/images/banner_desktop_trails.webp" media="(min-width: 768px)">
+                <img src="/project/images/banner_mov_trails.webp" alt="Mountain Biking Adventure banner" width="400"
+                    height="800">
+            </picture>
+        </div>
+        <section class="trails">
+            <div class="container">
+                <h2>Featured Trails</h2>
+
+                <!-- Trail 1 -->
+                <div class="trail-card">
+                    <div class="trail-image">
+                        <img src="images/trail01.webp" loading="lazy" alt="Mountain View Trail">
+                    </div>
+                    <div class="trail-info">
+                        <h3>Mountain View Trail</h3>
+                        <p>A stunning trail with breathtaking views and challenging terrain.</p>
+
+                        <ul>
+                            <li><strong>Riding Area:</strong> 20 km</li>
+                            <li><strong>Difficulty Rating:</strong> Hard</li>
+                            <li><strong>Trail Type:</strong> Singletrack</li>
+                            <li><strong>Physical Rating:</strong> Advanced</li>
+                            <li><strong>Global Ranking:</strong> #12</li>
+                            <li><strong>Local Popularity:</strong> 5/5</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Trail 2 -->
+                <div class="trail-card">
+                    <div class="trail-image">
+                        <img src="images/trail02.webp" loading="lazy" alt="Forest Loop">
+                    </div>
+                    <div class="trail-info">
+                        <h3>Forest Loop</h3>
+                        <p>A scenic loop with moderate difficulty, perfect for a fun ride with friends.</p>
+
+                        <ul>
+                            <li><strong>Riding Area:</strong> 15 km</li>
+                            <li><strong>Difficulty Rating:</strong> Moderate</li>
+                            <li><strong>Trail Type:</strong> Loop</li>
+                            <li><strong>Physical Rating:</strong> Intermediate</li>
+                            <li><strong>Global Ranking:</strong> #25</li>
+                            <li><strong>Local Popularity:</strong> 4/5</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Trail 3 -->
+                <div class="trail-card">
+                    <div class="trail-image">
+                        <img src="images/trail03.webp" loading="lazy" alt="Desert Ridge Trail">
+                    </div>
+                    <div class="trail-info">
+                        <h3>Desert Ridge Trail</h3>
+                        <p>A challenging trail through rugged desert terrain with stunning sunsets.</p>
+
+                        <ul>
+                            <li><strong>Riding Area:</strong> 18 km</li>
+                            <li><strong>Difficulty Rating:</strong> Hard</li>
+                            <li><strong>Trail Type:</strong> Out-and-back</li>
+                            <li><strong>Physical Rating:</strong> Expert</li>
+                            <li><strong>Global Ranking:</strong> #8</li>
+                            <li><strong>Local Popularity:</strong> 4.5/5</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Trail 5 -->
+                <div class="trail-card">
+                    <div class="trail-image">
+                        <img src="images/trail05.webp" loading="lazy" alt="Rocky Mountain Pass">
+                    </div>
+                    <div class="trail-info">
+                        <h3>Rocky Mountain Pass</h3>
+                        <p>A rugged and rocky trail that rewards you with amazing panoramic views.</p>
+
+                        <ul>
+                            <li><strong>Riding Area:</strong> 25 km</li>
+                            <li><strong>Difficulty Rating:</strong> Very Hard</li>
+                            <li><strong>Trail Type:</strong> Point-to-point</li>
+                            <li><strong>Physical Rating:</strong> Advanced</li>
+                            <li><strong>Global Ranking:</strong> #5</li>
+                            <li><strong>Local Popularity:</strong> 5/5</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <div class="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+
+            <form id="nesletterForm">
+
+                <input type="email" name="subscribe" id="subscribe">
+                <input type="submit" value="SUBSCRIBE">
+            </form>
+        </div>
+        <div class="social">
+            <div>
+                <h3>Mountain Biking Adventure</h3>
+            </div>
+            <div>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="images/facebook.svg" loading="lazy" alt="Facebook"></a>
+
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="images/instagram.svg" loading="lazy" alt="Twitter"></a>
+
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="images/youtube.svg" loading="lazy" alt="Instagram"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© <span id="year"></span> Aldo I. Mancilla, Guatemala City </p>
+        <p>₪₪₪₪</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

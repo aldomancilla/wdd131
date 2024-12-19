@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Tips</title>
+    <meta name="description" content="A Mountain Biking Adventure site tips section">
+    <meta name="author" content="Aldo Mancilla">
+
+    <link href="styles/tips.css" rel="stylesheet" />
+    <script src="scripts/home.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Mountain Biking Adventure</h1>
+        </div>
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="trails.html">Trails</a></li>
+                <li><a href="tips.html">Tips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <picture>
+                <source srcset="/project/images/banner_desktop_tips.webp" media="(min-width: 768px)">
+                <img src="/project/images/banner_mov_tips.webp" alt="Mountain Biking Adventure banner" width="400" height="800">
+            </picture>
+        </div>
+        <section class="trails">
+            <div class="container">
+                <h2>Mountain Bike Tips</h2>
+
+                <!-- Tip 1 -->
+                <div class="trail-card">
+                    <div class="trail-image">
+                        <img src="images/safety1.webp" alt="Mountain View Trail">
+                    </div>
+                    <div class="trail-info">
+                        <h2>Mountain Bike Safety Tips</h2>
+                        <ul>
+                            <li><strong>Wear a Helmet:</strong> It’s the most basic but crucial piece of protective
+                                gear. Make sure it fits properly.</li>
+                            <li><strong>Protective Gear:</strong> Pads (knee, elbow, and gloves) can help prevent
+                                injuries, especially for more technical trails or downhill rides.</li>
+                            <li><strong>Know How to Fall:</strong> If you do fall, it’s important to know how to protect
+                                yourself. Tuck your arms and try to roll rather than landing directly on your limbs.
+                            </li>
+                            <li><strong>Bike Check:</strong> Before each event, participants should do a quick
+                                inspection to ensure the brakes, tires, and chain are functioning properly.</li>
+                            <li><strong>Ride Within Your Limits:</strong> It’s important to not push beyond your skill
+                                level, especially on unfamiliar trails or difficult terrain.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tip 2 -->
+                <div class="trail-card">
+                    <div class="trail-image">
+                        <img src="images/safety2.webp" alt="Forest Loop">
+                    </div>
+                    <div class="trail-info">
+                        <h2>Health and Fitness Tips for Riders</h2>
+                        <ul>
+                            <li><strong>Stay Hydrated:</strong> Dehydration is a major risk during physical activity,
+                                especially on warm days or challenging rides. Bring enough water and know where refill
+                                stations are located along the route.</li>
+                            <li><strong>Snacks:</strong> Carry high-energy snacks like energy bars, nuts, or bananas to
+                                maintain stamina. It’s important to refuel every hour or two, especially on longer
+                                rides.</li>
+                            <li><strong>Stretch Before and After:</strong> Stretching can help prevent muscle strains
+                                and improve flexibility. Focus on your legs, hips, and lower back before and after the
+                                ride.</li>
+                            <li><strong>Pacing:</strong> Don't go all-out from the start. Maintain a steady pace to
+                                avoid burnout and muscle fatigue, particularly if the ride includes tough climbs or
+                                technical sections.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tip 3 -->
+                <div class="trail-card">
+                    <div class="trail-image">
+                        <img src="images/safety3.webp" alt="Desert Ridge Trail">
+                    </div>
+                    <div class="trail-info">
+                        <h2>Weather Awareness and Dress</h2>
+                        <ul>
+                            <li><strong>Layering:</strong> It’s always a good idea to layer your clothing, as weather
+                                can change quickly, especially in mountainous areas. Wear moisture-wicking base layers,
+                                a breathable outer layer, and bring a jacket if there's a chance of rain.</li>
+                            <li><strong>Sun Protection:</strong> Even on cloudy days, UV rays can still cause damage.
+                                Wear sunscreen and protect your eyes with sunglasses.</li>
+                            <li><strong>Cold Weather:</strong> If riding in cold conditions, ensure you have gloves, a
+                                hat, and warm clothing. Cold temperatures can increase the risk of frostbite and
+                                hypothermia.</li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+        <div class="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+
+            <form id="nesletterForm">
+                
+                <input type="email" name="subscribe" id="subscribe">
+                <input type="submit" value="SUBSCRIBE">
+            </form>
+        </div>
+         <div class="social">
+            <div>
+                <h3>Mountain Biking Adventure</h3>
+            </div>
+            <div>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="images/facebook.svg" loading="lazy" alt="Facebook"></a>
+
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="images/instagram.svg" loading="lazy" alt="Twitter"></a>
+
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="images/youtube.svg" loading="lazy" alt="Instagram"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© <span id="year"></span> Aldo I. Mancilla, Guatemala City </p>
+        <p>₪₪₪₪</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
